@@ -1,0 +1,59 @@
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+ 
+
+// Slider
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: #ffffff; 
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slick-prev::before,
+.slick-next::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+.slick-prev::before {
+  content: '\f104'; 
+  margin-right: 5px; 
+}
+
+.slick-next::before {
+  content: '\f105'; 
+  margin-left: 5px; 
+}
+.slick-dots {
+  li {
+    button {
+      &:before {
+        color: #f3f; 
+      }
+    }
+  }
+}
+.slick-dots {
+  li {
+    button {
+      &:before {
+        color: #f3f; 
+      }
+    }
+  }
+} 
+
+
+ 
+
+/*serviceslist hover before*/
+.group:hover:before {
+  opacity: 1;
+  transition: .5s; 
+  width: 100%;
+}
+/*serviceslist hover before*/
