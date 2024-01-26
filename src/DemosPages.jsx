@@ -36,7 +36,7 @@ const DemosPages = () => {
       </div>
 
       <div className='container mx-auto py-20 mt-12'>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 p-2'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 p-2'>
 
           <Link to="/" target='_blank'>
             <div className='rounded-xl hover:-mt-5 duration-300'>
